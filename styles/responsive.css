@@ -1,0 +1,24 @@
+
+/* moblie divice */
+
+@media screen and (max-width:600px) {
+    .nav-container{
+        flex-direction: column;
+    }
+
+    .items-container{
+        flex-direction: column;
+    }
+    .banner-content{
+        flex-direction: column;
+    }
+     .input-container input{
+
+     display: block;
+     justify-content: center;
+     align-items: center;
+     margin-left: 130px;
+        
+       
+    }
+}
