@@ -1,5 +1,5 @@
 
-/* moblie divice large divice */
+/* moblie divice */
 
 @media screen and (max-width:600px) {
     .nav-container{
@@ -43,4 +43,23 @@
     flex-direction: column;
 
    }
+   .news-content input{
+    margin-left: 140px;
+    text-align: center;
+   }
+   .news-content{
+     text-align: center;
+   }
+}
+
+
+/* large divice  */
+@media screen and  (min-width:992px) {
+    .svg{
+        display: none;
+    }
+    .popular-contain-2{
+        display: block;
+    }
+    
 }
