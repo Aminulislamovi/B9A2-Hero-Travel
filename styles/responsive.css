@@ -1,7 +1,7 @@
 
 /* moblie divice */
 
-@media screen and (max-width:600px) {
+@media screen and (max-width:600px){
     .nav-container{
         flex-direction: column;
         
@@ -62,4 +62,12 @@
         display: block;
     }
     
+}
+@media screen  and (min-width:600px)and (max-width:992px){
+    .svg{
+        display: none;
+    }
+    .popular-contain-2{
+        display: block;
+    }
 }

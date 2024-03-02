@@ -211,11 +211,22 @@ h3 {
 }
 
 
-.news-content-img {}
+.news-content-img {
+  position: relative;
+}
+.travel-discount{
+position: absolute;
+bottom: 30%;
+left: 60%;
+color: #FFF;
+font-weight: 800;
+transform: rotate(-10deg);
+}
 
 .footer {
     display: flex;
     justify-content: center;
+    align-items: center;
 
 }
 
@@ -305,3 +316,12 @@ h3 {
     font-weight: 400;
 
 }
+
+.travel-discount {
+    border-radius: 5px;
+    background: #FF5400;
+    width: 150px;
+    padding: 5px;
+    text-align: center;
+}
+
