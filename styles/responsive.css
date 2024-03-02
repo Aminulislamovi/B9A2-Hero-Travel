@@ -1,13 +1,15 @@
 
-/* moblie divice */
+/* moblie divice large divice */
 
 @media screen and (max-width:600px) {
     .nav-container{
         flex-direction: column;
+        
     }
 
     .items-container{
         flex-direction: column;
+        display:none;
     }
     .banner-content{
         flex-direction: column;
@@ -21,4 +23,24 @@
         
        
     }
+    .popular-container{
+        flex-direction: column;
+    }
+    .grid-container{
+        grid-template-columns: repeat(1 ,1fr);
+        
+    }
+    .grid-item-1, .grid-item-2,.grid-item-3 ,.grid-item-4 ,.grid-item-5,.grid-item-6,.grid-item-7  {
+        grid-column: 1/span 5;
+    }
+   .hotel-container{
+    flex-direction: column;
+   }
+   .news-letter-container{
+    flex-direction: column;
+   }
+   .place-container{
+    flex-direction: column;
+
+   }
 }

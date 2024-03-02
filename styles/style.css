@@ -78,42 +78,132 @@
     font-weight: 600;
 
 }
-.popular-container{
+
+.popular-container {
     display: flex;
 }
-.Choose-content{
+
+.Choose-content {
     text-align: center;
+
 }
-.grid-container{
+
+/* .grid-container */
+
+.grid-container {
 
     display: grid;
-    grid-template-columns: repeat(12 ,1fr);
-    grid-template-rows: repeat(3, 1fr) ;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    gap: 15px;
 
 }
-.grid-item-1{
-    grid-column:1/span 5;
+
+.grid-item-1 {
+    grid-column: 1/span 5;
 }
-.grid-item-2{
-    grid-column:6/span 10;
+
+.grid-item-2 {
+    grid-column: 6/span 10;
 }
-.grid-item-3{
-    grid-column:1/span 3 ;
+
+.grid-item-3 {
+    grid-column: 1/span 3;
 
 }
-.grid-item-4{
-    grid-column: 4/span 4;
+
+.grid-item-4 {
+    grid-column: 4/span 5;
 }
-.grid-item-5{
-    /* grid-column: 3/span 4; */
+
+.grid-item-5 {
+    grid-column: 9/span 10;
 }
-.grid-item-6{
-  grid-column:1/ span 5;
+
+.grid-item-6 {
+    grid-column: 1/ span 5;
 }
-.grid-item-7{
-    grid-column:6/span 11;
+
+.grid-item-7 {
+    grid-column: 6/span 11;
 }
-.grid-container img{
- width: 100%;
-height: 100%;
+
+.grid-container img {
+    width: 100%;
+    height: 100%;
+}
+
+.hotel-title {
+    color: #131318;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 800;
+
+}
+
+.hotel-description {
+    color: #5A5A5D;
+    font-family: Mulish;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.hotel-container {
+    display: flex;
+}
+
+.hotel {
+    text-align: center;
+}
+
+.why-choose-container {
+    text-align: center;
+}
+
+.btn-container {
+    text-align: center;
+}
+
+.place-container {
+    display: flex;
+}
+
+.news-letter-container {
+    display: flex;
+}
+
+.news-content input,
+p,
+h3 {
+    display: block;
+
+}
+
+.news-content {
+    width: 700px;
+  
+}
+
+.news-content-img {
+
+    
+}
+.footer{
+    display: flex;
+   justify-content: center;
+}
+.footer-description{
+    text-align: center;
+}
+.fav-icon {
+    display: flex;
+   justify-content: center;
+ 
+}
+.all-right{
+    text-align: center;
+}
+.svg{
+    display: flex;
 }
